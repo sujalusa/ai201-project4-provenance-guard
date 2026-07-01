@@ -1,0 +1,12 @@
+# Environment variables — never commit secrets
+.env
+
+# Runtime state (regenerated on each run; entries documented in README)
+audit_log.jsonl
+content_store.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
